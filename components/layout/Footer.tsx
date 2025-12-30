@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="text-center text-sm text-slate-400 pt-8 pb-8 flex flex-col items-center">
+    <footer className="text-center text-sm text-slate-400 pt-8 pb-0 flex flex-col items-center">
       <div className="flex items-center justify-center space-x-6 text-slate-400 order-1 mb-4">
         <a href="#" target="_blank" className="hover:text-blue-600 transition-transform hover:-translate-y-1" title="YouTube">
             <i className="fab fa-youtube fa-lg"></i>
