@@ -6,7 +6,7 @@ import PageBackground from '@/components/ui/PageBackground';
 import { GeneralSettings } from '@/system/GeneralSettings';
 
 interface SectionCardProps {
-  title: string;
+  title: React.ReactNode;
   children: React.ReactNode;
   className?: string;
   icon?: string;
